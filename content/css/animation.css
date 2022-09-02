@@ -1,0 +1,69 @@
+.animationOne:hover {
+    transition-duration: 1s;
+    color: #E16327;
+}
+
+.animationOne:hover~.animationLineOne {
+    transition-duration: 1s;
+    background-color: #e27e37;
+}
+
+.animationThree:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    opacity: 0.8;
+}
+
+.animationFour:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    color: #c0b4b4;
+}
+
+.animationFour:hover~.animationLineFour {
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    background-color: #df9c59;
+}
+
+.slidesNavElements:hover {
+    transition-duration: 1s;
+    background-color: rgb(107, 105, 105);
+}
+
+.animationSeven:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    background-color: #908f8c;
+}
+
+.animationSeven:hover~.animationSevenLine {
+    transition-duration: 1s;
+    background-color: rgb(165, 161, 160);
+
+}
+
+.animationEight:hover {
+    transition-duration: 1s;
+    opacity: 0.6;
+}
+
+.animationEight:hover~.animationEightLine {
+    transition-duration: 1s;
+    opacity: 0.6;
+}
+
+.animationTen:hover {
+    transition-duration: 1s;
+    opacity: 0.6;
+}
+
+.animationEleven {
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.animationEleven:hover {
+    transition-duration: 1s;
+    opacity: 0.4;
+}

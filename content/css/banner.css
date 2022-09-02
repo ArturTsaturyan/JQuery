@@ -1,0 +1,70 @@
+.bannerBeside {
+    width: 100%;
+    height: 24.25em;
+    position: absolute;
+    top: 237.6875em;
+}
+
+.bannerImgGray {
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+}
+
+.bannerImage {
+    width: 66%;
+   margin-top: 0.0625em;
+}
+
+
+.bannerOrangeElement {
+    position: absolute;
+    right: 0;
+}
+
+.bannerTitle {
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #333333;
+}
+
+.bannerSubTitle {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: #333333;
+    margin-top: 0.625rem;
+}
+
+.bannerButton {
+    height: 3rem;
+    width: 11.75rem;
+    border-radius: 0.25rem;
+    background: linear-gradient(90deg, #E16327 0%, #F7941E 100%);
+    margin-top: 2.375rem;
+    border: none;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.bannerButtonLink {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bannerHat {
+    height: 3.375rem;
+}
+.bannerBesideInfo{
+    position: absolute;
+    top: 0;
+    right: 11.61625rem;
+    text-align: center;
+    margin-top: 5.385rem;
+}

@@ -1,0 +1,154 @@
+.promotedArticleBackround{
+    position: absolute;
+    width: 100%;
+    height: 40.3125em;
+    top: 51.7em;
+}
+.mainArticleImage {
+    width: 74%;
+    top: -1.6em;
+}
+
+.whiteIcon {
+    width: 60.5%;
+    position: absolute;
+    right: 0;
+    top: -1.7125em;
+}
+
+.shapeNext {
+    position: absolute;
+    right: 0;
+    top: -4.125em;
+}
+
+.promotedArticleImageTransparent {
+    position: absolute;
+    width: 15.8125em;
+    top: 21.75em;
+}
+
+.promotedArticleInfo {
+    position: absolute;
+    right: 0;
+    margin-top: 6rem;
+    margin-right: 3.718125em;
+}
+
+.sectionDate {
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1em;
+    color: #828487;
+}
+
+.sectionAutor {
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1em;
+    color: #333333;
+}
+
+.sectionAutorDate{
+    text-align: right;
+    margin-top: 0.6875rem;
+}
+
+.sectionAutorText {
+    width: 26.3125em;
+    text-align: right;
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #333333;
+    margin-top: 1.25rem;
+    margin-left: 8.125rem;
+}
+
+.sectionSquareGray{
+    width: 3em;
+    height: 2.875em;
+    background-color: #E2E2E280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125em;
+    box-shadow: 0 0 11em 0;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.sectionLine {
+    width: 3rem;
+    height: 0.125rem;
+    background-color: #FF9900;
+}
+
+.sectionButton {
+    height: 3rem;
+    width: 11.75rem;
+    border-radius: 0.25em;
+    background: linear-gradient(90deg, #E16327 0%, #F7941E 100%);
+    border: none;
+    margin-left: 0.625rem;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.sectionSharelinkButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.5rem;
+}
+
+.sectionLink {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.promotedArticleSharelinkIcons{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(207, 202, 202);
+    border-radius: 10%;
+    margin-right: 0.625rem;
+    font-size: 1.7em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.promotedArticleSharelinkIcons a{
+    text-decoration: none;
+    color: black;
+}
+.fa{
+    transition: 1s;
+}
+
+.promotedArticleSharelinkIcons:hover{
+    background-color: gray;
+    transition: 1s;
+}
+.promotedArticleSharelinkIcons:hover .fa{
+    transition: 1s;
+    color: #FFFFFF;
+    display: block;
+}
+.promotedArticleSharelinkIconsLink{
+    display: flex;
+}
+
+.promotedArticleSharelinkIconsAll{
+    display: none;
+}
+
+.promotedArticleSharelinkIconsAllBlock{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,285 @@
+.messagesAndEventsBackground {
+    width: 100%;
+    height: 54.625em;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 153.7em;
+}
+
+.messagesAndEventsTriangleOrange {
+    position: absolute;
+    right: 0;
+}
+
+.messagesAndEventsTriangleGray {
+    position: absolute;
+    right: 0;
+}
+
+.messagesAndEventsNews {
+    position: absolute;
+    margin-top: 1.75rem;
+    margin-left: 2.6875em;
+}
+
+.messagesAndEventsHeding {
+    position: absolute;
+    right: 3.4375rem;
+    font-size: 1.875em;
+    font-weight: 400;
+    line-height: 2.5625em;
+    color: #FFFFFF;
+}
+
+.messagesAndEventsCards {
+    width: 93%;
+    display: flex;
+    /*position: absolute;*/
+    align-items: center;
+    justify-content: space-around;
+    /*margin-left: 2.1875em;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.64125em;
+}
+
+.messagesAndEventsPrevLink {
+    background-color: #FFFFFF;
+}
+
+.messagesAndEventsNextLink {
+    background-color: #FFFFFF;
+}
+
+/* .messagesAndEventsCard {
+    width: 18.5em;
+    height: 12.0625em;
+    background-color: #F1F1F1;
+    margin-left: 1.75em;
+} */
+/*.owl-carousel{
+    width: 94%;
+    z-index: auto;
+    margin: 0 auto;
+}*/
+.owl-item{
+    width: 18.5em;
+    height: 12.0625em;
+    background-color: #F1F1F1;
+}
+.owl-nav{
+    display: block !important;
+    margin-top: -11%;
+}
+
+
+.messagesAndEventsPrevLinkLine {
+    position: absolute;
+    left: -0.5em;
+}
+
+.messagesAndEventsNextLinkLine {
+    position: absolute;
+    right: -0.5em;
+    margin-top: 0;
+}
+
+.messagesAndEventsDate {
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.0625em;
+    text-align: right;
+    color: #333333;
+    margin-top: 2.625rem;
+    margin-right: 2.625rem;
+}
+
+.messagesAndEventsCardHeading {
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1.1875em;
+    text-align: right;
+    color: #333333;
+    margin-top: 5px;
+    margin-right: 2.625rem;
+}
+
+.messageAndEventsCardText {
+    width: 72.3%;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.25em;
+    text-align: right;
+    color: #333333;
+    margin-top: 5px;
+    margin-left: 2.625rem;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+/* --------------------------------------------------------- */
+.messagesAndEventsEvents {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 33.1875em;
+}
+
+.messagesAndEventsBackgroundGray {
+    position: absolute;
+    opacity: 0.3;
+    width: 100%;
+    height: 33.1875em;
+    background-color: #F2F2F2;
+}
+
+.messagesAndEventsEventsSlide {
+    width: 100% !important;
+    display: flex !important;
+    position: absolute !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    margin-top: 4.75em !important;
+
+}
+
+.messagesAndEventsChild {
+    height: 23.6875em !important;
+    width: 25.25rem !important;
+    border-radius: 0.25em !important;
+    background-color: #FFFFFF !important;
+}
+
+.messagesAndEventsEventsPrevLinkLine {
+    position: absolute;
+    left: 1.1875em;
+}
+
+.messagesAndEventsAllEventsLink {
+    text-decoration: none;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.1875em;
+    color: #333333;
+    transition-duration: 1s;
+}
+
+.messagesAndEventsAllEventsLine {
+    width: 4em;
+    height: 0.125em;
+    background-color: #C05602;
+    transition-duration: 1s;
+}
+
+
+.messagesAndEventsEventsMonth {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 3.375rem;
+    color: #C05602;
+    text-align: right;
+}
+
+.messagesAndEventsEventsDate {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.3125em;
+    color: #333333;
+    text-align: right;
+}
+
+.messagesAndEventsDateLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.375em;
+}
+
+.messagesAndEventsEventsTitel {
+    font-size: 1.375em;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: right;
+    color: #333333;
+    margin-top: 1.25rem;
+}
+
+.messagesAndEventsEventsDescription {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.3125em;
+    text-align: right;
+    color: #333333;
+    margin-top: 0.75em;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.messagesAndEventsChild {
+    padding: 1.125rem 2.625rem 2.1875rem 2.625rem;
+}
+
+.messagesAndEventsEventsLiteralDate {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.3125em;
+    text-align: right;
+    color: #333333;
+    margin-top: 0.75em;
+}
+
+.messagesAndEventsButton {
+    height: 3rem;
+    width: 46.7%;
+    border-radius: 0.25em;
+    background: linear-gradient(218.22deg, #F39231 0%, #E4702E 83.05%, #D54E2A 162.61%);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9375rem;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.messagesAndEventsButtonText {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.1875em;
+    color: #FFFFFF;
+    
+}
+
+.messagesAndEventsButtonCalendar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.3125em;
+}
+
+.messagesAndEventsCalendarText {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.1875em;
+    color: #333333;
+}
+
+.messagesAndEventsCalendar {
+    display: flex;
+    height: 2.875em;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 1em 1.75em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.messagesAndEventsCalendarLine {
+    height: 0.125em;
+    width: 100%;
+    background: #FF9900;
+}
+.messagesAndEventsCalendarTextLine{
+    cursor: pointer;
+    width: 46.7%;
+    transition-duration: 1s;
+}

@@ -1,0 +1,97 @@
+.articlesCarouselBackground{
+    position: absolute;
+    height: 32.5625em;
+    width: 100%;
+    margin-top: 4.625em;
+}
+.articlesCarousel {
+    position: relative;
+    bottom: -36em;
+}
+
+.articlesCarouselWhite {
+    position: absolute;
+    width: 48.125em;
+    top: 1.0625em;
+    z-index: 1;
+}
+
+.articlesCarouselImage {
+    width: 65%;
+    right: 0;
+    margin-top: 1.325em;
+}
+
+.articlesCarouselOrange {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    width: 55%;
+    z-index: 2;
+}
+
+.articlesCarouselSectionInfo {
+    position: absolute;
+    z-index: 3;
+}
+
+.sectionNewsLink{
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.1875em;
+    color: #333333;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.sectionNewsLine{
+    width: 4.375em;
+    height: 0.125em;
+    background: #C05602;
+    transition-duration: 1s;
+}
+.sectionNewsLink:hover{
+    transition-duration: 1s;
+    color: #E16327;
+}
+.sectionNewsLink:hover~.sectionNewsLine{
+    transition-duration: 1s;
+    background-color: aqua;
+}
+.sectionNews{
+    display: flex;
+    margin-left: 2.625rem;
+    margin-top: 5.125rem;
+}
+.sectionLinkLine{
+    margin-left: 0.5625em;
+}
+.sectionHeding {
+    font-size: 1.875em;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 2.5625rem;
+}
+.articlesCarouselSectionPrevNext{
+    display: flex;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+}
+.articlesCarouselSectionPrevLink{
+    margin-right: 0.625rem;
+}
+.articlesCarouselAutortext{
+    margin-left: 7.25rem;
+}
+
+
+.articlesCarouselIconsBlock{
+    display: flex;
+    margin-top: 0.625rem;
+    margin-left: -4.375rem;
+    position: absolute;
+    opacity: 0;
+}
+.x:hover .articlesCarouselIconsBlock{
+    transition: 1s;
+    opacity: 1;
+}

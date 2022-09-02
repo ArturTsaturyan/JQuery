@@ -1,0 +1,393 @@
+@import url(//fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSansHebrew-Bold";
+    src: url("../font/OpenSansHebrew-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansHebrew";
+    src: url("../font/OpenSansHebrew-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Open Sans Hebrew', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.homePage{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+nav {
+    padding-left: 2.5em;
+    width: 100%;
+    background-color: #CFD6DA;
+}
+
+.language {
+    font-size: 0.875em;
+    line-height: 1.875em;
+    color: #333333;
+    margin-left: 0.5em;
+    font-weight: 700;
+
+}
+
+.headerVector {
+    width: 0.666875em;
+    height: 0.353125em;
+    margin-left: 0.416875em;
+    transition-duration: 0.7s;
+}
+
+.languageMenuUl {
+    display: flex;
+}
+
+.languageMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 0.03125em;
+    height: 1em;
+    background-color: #333333;
+    margin: 0.5em 1.25em;
+}
+
+.languageMenuAll {
+
+    display: flex;
+    align-items: center;
+}
+
+.topLinks {
+    font-size: 0.875em;
+    color: #333333;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------- */
+.menuBurger {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.5em;
+    padding-right: 1.639375em;
+    z-index: 5;
+    background-color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.menuButton {
+    padding: 0.5em 1em;
+    width: 10.875em;
+    height: 2.5em;
+    border: none;
+    background: linear-gradient(90deg, #E16327 0%, #F7941E 100%);
+    border-radius: 0.25em;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.imageLogo {
+    width: 10.066875em;
+    height: 2.4875em;
+    margin-right: 13.5625em;
+}
+
+.manuText {
+    line-height: 1.55em;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.manuSvg {
+    width: 1.055em;
+    height: 1.05875em;
+    margin-left: 0.75em;
+}
+
+.regin {
+    width: 0.29em;
+    height: 0.29em;
+    border-radius: 50%;
+    background-color: #FF9900;
+    margin-left: 0.125em;
+}
+
+.drobDownManu {
+    display: flex;
+    align-items: center;
+}
+
+.region {
+    margin-top: 0.155em;
+}
+
+.searchBar {
+    width: 1.25em;
+    height: 1.25em;
+    margin-left: 0.959375em;
+
+}
+
+.butStarSearch {
+    display: flex;
+    align-items: center;
+}
+
+.favoriteStar {
+    margin-left: 1.34375em;
+}
+
+.lineVertical {
+    width: 0.03125em;
+    height: 1.6875em;
+    background-color: #9B9DA0;
+    margin-left: 1.164375em;
+}
+
+/* ---------------------------------------------------- */
+.imageFon {
+    width: 100%;
+    height: 41.6875em !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainTitle {
+    font-size: 3.125em;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: right;
+}
+
+.mainAutocompleteButton {
+    height: 3em;
+    width: 6.875em;
+    background: linear-gradient(90deg, #E16327 0%, #F7941E 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+    border: none;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.mainAutocompleteInput {
+    width: 22.25em;
+    height: 3em;
+    font-size: 0.875em;
+    text-align: right;
+    color: #828487;
+    border: none;
+    outline: none;
+}
+
+.mainAutocompleteSearchIcon {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1.15em;
+    margin-left: 0.65em;
+}
+
+.mainAutocomplete {
+    height: 3em;
+    width: 32.125em;
+    border-radius: 0.25em;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.mainAutocompleteSearchM {
+    display: flex;
+    align-items: center;
+}
+
+.mainAutocompleteInputSearch {
+    display: flex;
+}
+
+.mainAutocompleteSearch {
+    z-index: 1;
+    margin-right: 11.3675em;
+    margin-top: 11.375em;
+}
+
+.cube {
+    height: 8.5625em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -0.3125rem 0.3125rem 0.875rem -0.25rem #333333;
+}
+
+.cubeBlock {
+    margin-left: 2.6325em;
+    margin-top: 2.4375em;
+    text-align: center;
+    z-index: 2;
+}
+
+.cubeSecond {
+    margin-top: 2.5em;
+}
+
+.cubeLink {
+    font-size: 0.875em;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+}
+
+.lineOrange {
+    margin-bottom: 0.9375em;
+}
+
+.moreLink{
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1.1875em;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+
+.moreLinkLine {
+    width: 3.0625em;
+    height: 0.125em;
+    background-color: #F77D00;
+    margin: auto;
+    margin-top: 0.125em;
+    transition-duration: 1s;
+}
+.findOutMore{
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 38.25em;
+    left: 0;
+    margin-top: auto;
+}
+
+/* --------------------------------------------------------------- */
+.slidesNavElements {
+    height: 2em;
+    width: 2em;
+    border-radius: 6.25em;
+    background: #FFFFFFE5;
+    margin-left: 0.625em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.slidesPanel {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: flex-end;
+}
+
+.slidesLink {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.1875em;
+    color: #FFFFFF;
+    text-decoration: none;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    transition-duration: 1s;
+}
+.slidesBottomLinkLine{
+    width: 22.6875em;
+    height: 0.125em;
+    background: #F77D00;
+    margin-top: 0.25em;
+    transition-duration: 1s;
+}
+.slidesBottomLink{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.shape{
+    position: absolute;
+    top: 32.625em;
+    z-index: 1;
+}
+.slidesNavPanel{
+    position: absolute;
+    right: 2.5em;
+    bottom:  0em;
+}
+.languageMenuList{
+    position: absolute;
+    background-color: #CFD6DA;
+    margin-top: 0.11rem;
+    margin-left: -0.5rem;
+    width: 6.25rem;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.languageMenuList li{
+    list-style: none;
+    display: block;
+}
+.languageMenuList li a{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.875em;
+    color: #333333;
+}
+.languageBar{
+    cursor: pointer;
+}
+.languageBar:hover .headerVector{
+    transition-duration: 0.7s;
+   transform: rotate(180deg);
+}
+.languageBar:hover .languageMenuList{
+    display: block;
+    opacity: 0.8;
+}
+.languageMenuList li:hover{
+    opacity: 0.8;
+}

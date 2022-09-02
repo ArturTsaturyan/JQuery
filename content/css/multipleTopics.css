@@ -1,0 +1,83 @@
+.multipleTopicsBackround {
+    width: 100%;
+    height: 38.6875em;
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: -99em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.multipleTopicsNextLink {
+    background-color: #FFFFFF;
+}
+
+.multipleTopicsPrevLink {
+    background-color: #FFFFFF;
+}
+
+.multipleTopicsSlider {
+    width: 69.375em;
+    height: 30.9375em;
+    background-color: #FFFFFF;
+}
+
+.multipleTopicsSectionPrevNext {
+    display: flex;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.multipleTopicsSectionInfo {
+    position: absolute;
+}
+
+.multipleTopicsSectionPrevLink {
+    margin-right: 0.625rem;
+}
+
+.multipleTopicsAutortext {
+    margin-left: 7.25rem;
+}
+
+.multipleTopicsSectionNews {
+    margin-top: 2.5625em;
+}
+
+.multipleTopicsSlider {
+    margin-left: 2.5em;
+}
+
+.multipleTopicsMainImage {
+    width: 37.1875em;
+    height: 21.875em;
+    background-image: url('../images/multipleTopicsImage/multipleTopicsImage.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 3.8125em 2.5em 2.5em 2.5em;
+}
+
+.multipleTopicsMainImageContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.sectionIndicator{
+    width: 2.4375em;
+    height: 0.25em;
+    background-color: #CFCFCF;
+    margin-left: 0.375em;
+}
+.multipleTopicsIndicators{
+    display: flex;
+    margin-left: 1.5625em;
+}
+.multipleTopicsIndicatorThree{
+    background-color: #F08B30;
+}
+.multipleTopicsPrevNext{
+    margin-left: 2.5em;
+}
+.multipleTopicsPrevNextLink{
+    margin: 2.5em;
+}

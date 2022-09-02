@@ -1,0 +1,13 @@
+<svg width="506" height="516" viewBox="0 0 506 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Triangle" filter="url(#filter0_b_971_42806)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.265625L506 514.266H0V0.265625Z" fill="#E2E2E2" fill-opacity="0.5"/>
+</g>
+<defs>
+<filter id="filter0_b_971_42806" x="-54.3656" y="-54.1" width="614.731" height="622.731" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="13.5914"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_971_42806"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_971_42806" result="shape"/>
+</filter>
+</defs>
+</svg>
